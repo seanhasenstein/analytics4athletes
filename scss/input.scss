@@ -1,0 +1,21 @@
+/*
+	Analytics4Athletes Theme
+	Author: Sean Hasenstein
+	Version: 0.01
+*/
+
+@import 'vendors/bootstrap';
+@import 'vendors/fontawesome';
+@import 'base/typography';
+@import 'components/navigation';
+@import 'pages/home/showcase';
+@import 'pages/home/learn-more';
+@import 'pages/home/products';
+@import 'pages/products';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'layout/footer';
+
+body {
+	overflow-x: hidden;
+}

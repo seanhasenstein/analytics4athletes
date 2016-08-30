@@ -1,0 +1,137 @@
+/*
+
+pages/home/showcase.scss
+
+*/
+
+section.showcase {
+	background: url('images/bg-showcase.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 60px 0;
+
+	@media screen and (max-width: 767px) {
+		padding: 15px 0 40px;
+	}
+	@media screen and (max-width: 400px) {
+		padding: 0 0 30px;
+	}
+
+	.container {
+		max-width: 900px;
+		margin: 0 auto;
+
+		@media screen and (max-width: 1000px) {
+			max-width: 800px;
+		}
+		@media screen and (max-width: 767px) {
+			max-width: 90%;
+		}
+
+		.col-sm-6 {
+
+			img {
+				display: none;
+
+				@media screen and (max-width: 500px) {
+					display: inline-block;
+				}
+			}
+
+			@media screen and (max-width: 500px) {
+				text-align: center;
+			}
+		}
+		.col-sm-4.col-sm-offset-1 {
+
+			@media screen and (max-width: 500px) {
+
+				display: none;
+			}
+		}
+	}
+
+	p {
+	    font-size: 17px;
+	    color: #fff;
+	    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	    line-height: 30px;
+	    margin: 30px 0 40px;
+	    font-weight: 300;
+	    padding-right: 10px;
+
+	    @media screen and (max-width: 400px) {
+	    	margin: 30px 0 20px;
+	    }
+	}
+
+	a {
+		background: $red;
+		color: #fff;
+		padding: 9px 21px;
+		border-radius: 30px;
+		border-bottom: 3px solid #ab1a24;
+		box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+		text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+
+		@media screen and (max-width: 500px) {
+			width: 85%;
+			display: inline-block;
+			border-radius: 6px;
+		}
+
+		@media screen and (max-width: 400px) {
+			width: 100%;
+		}
+
+		i.fa.fa-angle-right {
+		    margin-left: 11px;
+		    font-size: 20px;
+		    vertical-align: middle;
+		    margin-top: -3px;
+		}
+
+		&:focus, &:hover, &:active {
+			text-decoration: none;
+		}
+
+		&:hover {
+			background: #ca232e;
+		}
+	}
+
+	img {
+	    width: 225px;
+	    float: right;
+
+	    @media screen and (max-width: 767px) {
+	    	margin-right: 120px;
+    		margin-top: -40px;
+	    }
+	    @media screen and (max-width: 650px) {
+	    	margin-right: 90px;
+	    }
+	    @media screen and (max-width: 600px) {
+	    	margin-right: 40px;
+	    }
+	    @media screen and (max-width: 550px) {
+	    	margin-right: 20px;
+	    }
+	    @media screen and (max-width: 500px) {
+	    	width: 200px;
+	    	margin-right: 0;
+	    	margin-top: 0;
+	    	margin-bottom: 50px;
+    		float: none;
+    		display: inline-block;
+	    }
+	    @media screen and (max-width: 400px) {
+	    	margin-bottom: 30px;
+	    }
+	}
+}
+
+
+
+
+

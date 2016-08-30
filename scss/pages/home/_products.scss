@@ -1,0 +1,210 @@
+/*
+
+pages/home/products.scss
+
+*/
+
+.products {
+	background-position: center center;
+	background-size: cover;
+	background-color: #fff;
+	padding: 0px 0 30px;
+
+	@media screen and (max-width: 768px) {
+		padding: 0;
+	}
+
+	.container {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 0 0 50px;
+
+		@media screen and (max-width: 1000px) {
+			max-width: 93%;
+			width: 93%;
+		}
+		@media screen and (max-width: 768px) {
+			text-align: center;
+			padding: 0;
+		}
+
+		@media screen and (max-width: 500px) {
+			max-width: 98%;
+			width: 98%;
+		}
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 65px;
+
+		@media screen and (max-width: 768px) {
+			margin-bottom: 30px;
+		}
+	}
+
+	.product-box {
+		width: 30%;
+		float: left;
+		padding: 25px 0px;
+		background: rgba(245, 245, 245, 0.7);background: #fdfdfd;
+		border-radius: 3px;
+		box-shadow: 3px 3px 9px rgba(0,0,0,0.2), -3px -3px 20px rgba(0,0,0,0.15);
+		text-align: center;
+		height: 418px;
+
+		@media screen and (max-width: 1000px) {
+			width: 32%;
+		}
+		@media screen and (max-width: 768px) {
+			width: 98%;
+			box-shadow: none;
+			margin: 1% auto;
+			float: none;
+			height: auto;
+		}
+		@media screen and (max-width: 500px) {
+			width: 92%;
+		}
+
+		i.fa.fa-user, i.fa.fa-users {
+		    font-size: 40px;
+		}
+
+		h3 {
+			margin: 20px 0px 15px;
+			font-size: 18px;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		p {
+			padding: 0 30px;
+			margin: 17px 10px;
+			font-weight: 300;
+			line-height: 24px;
+
+			@media screen and (max-width: 980px) {
+				padding: 0 15px;
+			}
+			@media screen and (max-width: 800px) {
+				font-size: 13px;
+			}
+			@media screen and (max-width: 768px) {
+				padding: 0 30px;
+			}
+		}
+	}
+
+	.player-anal, .player-dev, .team-anal {
+
+		a {
+			padding: 8px 18px;
+			display: inline-block;
+			border-radius: 30px;
+			color: #fff;
+			font-weight: 300;
+			/*font-style: italic;*/
+
+			i.fa.fa-angle-right {
+			    margin-left: 8px;
+			}
+
+			&:hover, &:focus, &:active {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.player-anal, .player-dev {
+		margin-right: 5%;
+
+		@media screen and (max-width: 1000px) {
+			margin-right: 2%;
+		}
+		@media screen and (max-width: 768px) {
+			margin-right: auto;
+		}
+	}
+
+	.player-anal {
+		background: url('images/logo_broken_left.png') no-repeat;
+		background-size: cover;
+		background-position: center center;
+	    background-color: #fff;
+
+	    @media screen and (max-width: 768px) {
+	    	background: #f5f5f5;
+	    }
+
+		a {
+			/*border: 1px solid #eb3f0e;*/
+			/*background: #31c6ef;*/
+			/*background: #f64310;*/
+			background: $red;
+			border-bottom: 3px solid #ab1a24;
+			text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+
+
+			&:hover {
+				/*background: #eb3f0e;*/
+				background: #ca232e;
+			}
+		}
+	}
+
+	.player-dev {
+		background: url('images/logo_broken_center.png') no-repeat;
+		background-size: cover;
+		background-position: center center;
+		background-color: #fff;
+
+		@media screen and (max-width: 768px) {
+	    	background: #f5f5f5;
+	    }
+
+		a {
+			/*border: 1px solid #56c15e;*/
+			/*background: #ec4655;*/
+			background: #5ccd65;
+			border-bottom: 3px solid #4eb156;
+			text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+
+			&:hover {
+				background: #56c15e;
+			}
+		}
+	}
+
+	.team-anal {
+		background: url('images/logo_broken_right.png') no-repeat;
+		background-size: cover;
+		background-position: center center;
+		background-color: #fff;
+
+		@media screen and (max-width: 768px) {
+	    	background: #f5f5f5;
+	    }
+
+		a {
+			/*border: 1px solid #01a2dd;*/
+			/*background: #e8c154;*/
+			background: #00adec;
+			border-bottom: 3px solid #0298cf;
+			text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+
+
+			&:hover {
+				background: #01a2dd;
+			}
+		}
+	}
+}
+
+
+
+
+
+
