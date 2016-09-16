@@ -8,24 +8,44 @@ section.product.player-analysis {
 	background: url('images/player_analysis.jpg') no-repeat;
 	background-position: right 90px;
     background-size: 37%;
+    background-color: #f5f6f7;
+    border-top: 1px solid #eee;
+    padding: 0 0 100px;
+
 
     @media screen and (max-width: 767px) {
     	background: transparent;
+    	background-color: #f5f6f7;
     }
 }
 section.product.player-development {
 	background: url('images/player_development.jpg') no-repeat;
 	background-position: right 90px;
     background-size: 37%;
+    background-color: #f5f6f7;
+    border-top: 1px solid #eee;
 
     @media screen and (max-width: 767px) {
     	background: transparent;
+    	background-color: #f5f6f7;
+    }
+}
+section.product.team-scouting {
+	background: url('images/team_scouting_report.jpg') no-repeat;
+	background-position: right 90px;
+    background-size: 37%;
+    background-color: #f5f6f7;
+    border-top: 1px solid #eee;
+
+    @media screen and (max-width: 767px) {
+    	background: transparent;
+    	background-color: #f5f6f7;
     }
 }
 section.product {
 	clear: both;
 	padding: 0 0 40px;
-    background-color: #fff;
+    background-color: #f5f6f7;
 
 	h1 {
 		text-align: left;

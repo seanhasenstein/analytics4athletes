@@ -23,7 +23,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="http://seanhasensteindemo.com">
           <img src="<?php bloginfo('template_directory'); ?>/images/logo_nav.png" alt="Analytics4Athletes">
         </a>
       </div>

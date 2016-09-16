@@ -1,0 +1,185 @@
+/*
+
+pages/checkout.scss
+
+*/
+
+
+
+.product.checkout {
+	border-top: 1px solid #ebebeb;
+
+	.col-md-8.col-md-offset-2 {
+	    margin-top: 50px;
+	    padding: 0;
+	}
+
+	.product-name {
+		background: #fff;
+	    border: 1px solid #ebebeb;
+	    border-radius: 2px;
+	    padding: 30px 60px;
+	    margin: 0 0 35px;
+
+	    @media screen and (max-width: 600px) {
+	    	padding: 30px 40px;
+	    }
+
+		h1 {
+			font-weight: 500;
+			font-size: 20px;
+			text-transform: none;
+			padding: 0;
+			margin-bottom: 15px;
+		}
+
+		.inner {
+		    border-top: 1px solid #ddd;
+		    padding: 20px 0 0;
+
+			h3 {
+			    margin: 0 13% 0 0;
+			    display: inline-block;
+			    font-weight: 300;
+			    font-size: 18px;
+			}
+			h4 {
+			    display: inline-block;
+			    color: rgb(255, 0, 0);
+			    margin-right: 13%;
+			}
+			img {
+				width: 40px;
+				box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), -1px -1px 1px rgba(0, 0, 0, 0.15);
+				display: inline-block;
+			}
+
+			h3, h4, img {
+
+				@media screen and (max-width: 600px) {
+					display: block;
+					margin-bottom: 30px;
+				}
+			}
+			h3 {
+			    margin-top: 10px !important;
+			}
+			img {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	form#gform_8, form#gform_9, form#gform_10 {
+		background: #fff;
+	    border: 1px solid #ebebeb;
+	    border-radius: 2px;
+	    padding: 20px 60px;
+
+	    @media screen and (max-width: 600px) {
+	    	padding: 20px;
+	    }
+	}
+
+	.gform_body {
+
+		label {
+			font-size: 14px;
+    		font-weight: 500;
+		}
+
+		input, textarea {
+			border: 1px solid #ccc;
+
+			&:active, &:focus {
+				outline: none;
+			}
+		}
+	}
+	.gform_wrapper .gsection {
+	    margin-top: 20px!important;
+	    border: none;
+	    border-bottom: 1px solid #ebebeb;
+
+	    h2 {
+	    	font-weight: 500;
+    		font-size: 20px;
+	    }
+	}
+	input#gform_submit_button_8, input#gform_submit_button_9, input#gform_submit_button_10 {
+		border: none;
+		background: #D62531;
+		color: #fff;
+		display: inline-block;
+		clear: both;
+		margin: 25px 0 10px;
+		padding: 10px 20px 8px;
+		text-transform: none;
+		font-size: 14px;
+		letter-spacing: 1px;
+
+		&:hover {
+			text-decoration: none;
+    		background: #c6111d;
+		}
+	}
+	select#input_8_14_4, select#input_9_14_4, select#input_10_9_6 {
+	    display: block;
+	    height: 26px;
+	    padding: 0 0 0 8px;
+	    overflow: hidden;
+	    position: relative;
+	    border: 1px solid #aaa;
+	    white-space: nowrap;
+	    line-height: 26px;
+	    color: #444;
+	    text-decoration: none;
+	    border-radius: 4px;
+	    background-clip: padding-box;
+	    -webkit-touch-callout: none;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	    background-color: #fff;
+	    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));
+	    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
+	    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);
+	    background-image: linear-gradient(to top, #eee 0%, #fff 50%);
+
+	    &:active, &:focus {
+	    	outline: none;
+	    	border: 1px solid #5897fb;
+	    }
+	}
+	.gform_wrapper .gfield_required {
+		color: rgb(255, 0, 0);
+	}
+
+	li#field_8_4, li#field_8_14, li#field_9_14, li#field_10_9 {
+	    margin-top: 30px;
+	}
+	li#field_8_5 {
+		margin-top: 40px;
+	}
+	li#field_8_15, li#field_9_15, li#field_9_16, li#field_10_10, li#field_10_11, li#field_8_17, li#field_9_17, li#field_10_12 {
+	    margin-top: 45px !important;
+	}
+	li#field_8_16, li#field_9_10, li#field_10_5 {
+	    margin-top: 70px !important;
+	}
+
+	.gform_wrapper .gfield_radio li label {
+	    margin: 4px 0 0 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
