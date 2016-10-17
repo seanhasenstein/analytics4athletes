@@ -1,0 +1,58 @@
+<div class="receipt">
+
+	<div class="text-center heading">
+		<p><i class="fa fa-check-circle" aria-hidden="true"></i></p>
+		<h2>Your order has been received!</h2>
+	</div>
+
+	<p>Date: <span>{date_mdy}</span></p>
+
+	<div class="product-details">
+		<div class="inner">
+			<p class="description-heading">Description<span class="price-heading">Price</span></p>
+			<p class="product">{form_title}
+				<span class="page-num">
+					[gravityforms action="conditional" merge_tag="{Total:11}" condition="contains" value="150"]
+					 (1 Page)
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{Total:11}" condition="contains" value="200"]
+					 (2 Pages)
+					[/gravityforms]
+				</span>
+
+				<span class="price">{Total:11}</span>
+			</p>
+			<p class="odd">Team/School: <span>{Team/School to Scout:1}</span></p>
+			<p class="even">Coach: <span>{Coach\'s Name:14}</span></p>
+			<p class="odd">Coach's Email: <span>{Coach\'s Email:2}</span></p>
+			<p class="odd">Coach's Phone: <span>{Coach\'s Phone:3}</span></p>
+			<p class="odd">Stats to focus on: <span>{Specific stats you would like Analytics4Athletes to focus on::4}</span></p>
+			<p class="total-row">Total<span class="price">{Total:11}</span></p>
+		</div>
+	</div>
+
+	<div class="billing-details">
+		<h3>Billing Details</h3>
+		<p>{Your Name (First):6.3} {Your Name (Last):6.6}</p>
+		<p>{Your Email:7}</p>
+		<p>{Your Phone:8}</p>
+		<p>{Credit Card (Card Type):12.4} {Credit Card (Card Number):12.1}</p>
+	</div>
+
+	<div class="order-details row">
+	   <h4>Order Details</h4>
+	   <ul>
+		<li>You will receive your receipt via email shortly. You can also 
+			<a href="http://analytics4athletes.com/pdf/57ebe14fd194c/{entry_id}/" target="_blank">download your receipt here</a>
+		.</li>
+		<li>If you have any questions or feedback regarding your order please <a href="mailto:analytics4athletes@gmail.com">contact us here</a>.</li>
+		<li>We will be in touch shortly regarding your Player Analysis sheet. We look forward to working with you!</li>
+	   </ul>
+	</div>
+
+</div>
+
+<div class="back-link text-center">
+	<p>Go back to our <a href="http://seanhasensteindemo.com">homepage</a></p>
+</div>

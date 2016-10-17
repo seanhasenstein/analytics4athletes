@@ -12,7 +12,15 @@ section.product.player-analysis {
     border-top: 1px solid #eee;
     padding: 0 0 100px;
 
-
+    @media screen and (min-width: 1300px) {
+		background-size: 34%;
+	}
+    @media screen and (min-width: 1500px) {
+		background-size: 28%;
+	}
+    @media screen and (min-width: 1800px) {
+		background-size: 25%;
+	}
     @media screen and (max-width: 767px) {
     	background: transparent;
     	background-color: #f5f6f7;
@@ -37,6 +45,12 @@ section.product.team-scouting {
     background-color: #f5f6f7;
     border-top: 1px solid #eee;
 
+    @media screen and (min-width: 1500px) {
+		background-size: 30%;
+	}
+    @media screen and (min-width: 1800px) {
+		background-size: 25%;
+	}
     @media screen and (max-width: 767px) {
     	background: transparent;
     	background-color: #f5f6f7;

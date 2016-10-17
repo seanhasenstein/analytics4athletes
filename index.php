@@ -6,7 +6,7 @@
 
         <div class="col-sm-6">
           <p>Analytics4Athletes helps athletes, teams, trainers, coaches, agents, etc. take their game to the next level by improving how analytics and statistics are presented to them.</p>
-          <!--<p>Analytics4Athletes is improving how analytics are presented to trainers, coaches, agents, and athletes to maximize how statistics better improve athletes.</p>-->
+          <img src="<?php bloginfo('template_directory'); ?>/images/analytics_examples.png">
           <a href="#learn-more">Learn More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
         </div>
 
@@ -46,19 +46,19 @@
           <i class="fa fa-user" aria-hidden="true"></i>
           <h3>Player Analysis</h3>
           <p>Player Analysis Sheets provide coaches, trainers, scouts etc. statistical insight as to where an athlete is really excelling and to areas where he/she can improve on. This is available to football, basketball, and baseball.</p>
-          <a href="http://seanhasensteindemo.com/player-analysis">Learn More</a>
+          <a href="https://analytics4athletes.com/player-analysis">Learn More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
         </div>
         <div class="product-box player-dev">
           <i class="fa fa-user" aria-hidden="true"></i>
           <h3>Player Development</h3>
           <p>Player Development Sheets are for trainers and coaches to visually show what they need to work on with an individual athlete with detailed analysis. This is only available for basketball players, from the high school to professional levels.</p>
-           <a href="http://seanhasensteindemo.com/player-development">Learn More</a>
+           <a href="https://analytics4athletes.com/player-development">Learn More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
         </div>
         <div class="product-box team-anal">
           <i class="fa fa-users" aria-hidden="true"></i>
           <h3>Team Scouting Report</h3>
           <p>Team Scouting Reports are for basketball coaches to receive in-depth statistical analysis for a team. These reports cover offensive and defensive plays and strategies, success rates, and things that need improvement.</p>
-           <a href="http://seanhasensteindemo.com/team-scouting-report">Learn More</a>
+           <a href="https://analytics4athletes.com/team-scouting-report">Learn More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>

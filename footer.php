@@ -5,16 +5,17 @@
         <div class="col-sm-4">
           <h2>Products</h2>
           <ul>
-            <li><a href="http://seanhasensteindemo.com/player-analysis">Player Analysis</a></li>
-            <li><a href="http://seanhasensteindemo.com/player-development">Player Development</a></li>
-            <li><a href="http://seanhasensteindemo.com/team-scouting-report">Team Scouting Report</a></li>
+            <li><a href="https://analytics4athletes.com/player-analysis">Player Analysis</a></li>
+            <li><a href="https://analytics4athletes.com/player-development">Player Development</a></li>
+            <li><a href="https://analytics4athletes.com/team-scouting-report">Team Scouting Report</a></li>
+            <li><a href="https://analytics4athletes.com/product-examples">Product Examples</a></li>
           </ul>
         </div>
         <div class="col-sm-4">
           <h2>Company</h2>
           <ul>
-            <li><a href="http://seanhasensteindemo.com/about">About Us</a></li>
-            <li><a href="http://seanhasensteindemo.com/contact">Contact Us</a></li>
+            <li><a href="https://analytics4athletes.com/about">About Us</a></li>
+            <li><a href="https://analytics4athletes.com/contact">Contact Us</a></li>
           </ul>
         </div>
       </div>

@@ -18,7 +18,8 @@ Template Name: Player Development Billing
               <img src="<?php bloginfo('template_directory'); ?>/images/player_development_small.jpg">
             </div>
           </div>
-          <?php gravity_form(9, false, false, false, '', true, 12); ?>
+          <?php gravity_form(3, false, false, false, '', true, 12); ?>
+          </script>
         </div>
       </div>
     </div>

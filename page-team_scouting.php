@@ -22,7 +22,7 @@ Template Name: Team Scouting Report Page
           </ul>
           <p><span class="red">*</span> 1 page Player Development sheets - $150</p>
           <p class="small-margin"><span class="red">*</span> 2 page Player Development sheets - $200</p>
-          <a class="buy" href="http://seanhasensteindemo.com/team-scouting-report-checkout">Buy Now</a>
+          <a class="buy" href="https://analytics4athletes.com/team-scouting-report-checkout">Buy Now</a>
         </div>
       </div>
     </div>

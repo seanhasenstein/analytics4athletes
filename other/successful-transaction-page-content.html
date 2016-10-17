@@ -1,0 +1,147 @@
+<div class="receipt">
+
+	<div class="text-center heading">
+		<p><i class="fa fa-check-circle" aria-hidden="true"></i></p>
+		<h2>Your order has been received!</h2>
+	</div>
+
+	<p>Date: <span>{date_mdy}</span></p>
+
+	<div class="product-details">
+		<div class="inner">
+			<p class="description-heading">Description<span class="price-heading">Price</span></p>
+			<p class="product">{form_title}
+
+				<span class="page-num">
+					[gravityforms action="conditional" merge_tag="{Total:16}" condition="contains" value="150"]
+					 (1 Page)
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{Total:16}" condition="contains" value="200"]
+					 (2 Pages)
+					[/gravityforms]
+				</span>
+
+				<span class="price">
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="2"]
+					{Player Analysis Sheet - $75 (Price):15.2}
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="3"]
+					{Total:16}
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="4"]
+					{Total:11}
+					[/gravityforms]
+				</span></p>
+
+			<p class="odd">Athlete's Name: <span>{Athlete\'s Name:2}</span></p>
+			<p class="even">School/Team: <span>{Athlete\'s School/Team:3}</span></p>
+			<p class="odd">Sport: <span>
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="2"]
+					{Choose Sport::4}
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="3"]
+					Basketball
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="4"]
+					Basketball
+					[/gravityforms]
+
+				</span></p>
+			<p class="even">Coach/Trainer: <span>{Coach/Trainer Name:5}</span></p>
+			<p class="odd">Coach/Trainer Contact: <span>{Coach/Trainer Email:6} / {Coach/Trainer Phone:7}</span></p>
+			<p class="even">Dates worked with the athlete: <span>{Dates trainer/coach worked with athlete::8}</span></p>
+			<p class="odd">Stats to focus on: <span>
+
+				[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="2"]
+				{List specific stats you would like Analytics4Athletes to focus on::9}
+				[/gravityforms]
+
+				[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="3"]
+				{List specific stats you would like Analytics4Athletes to focus on::9}
+				[/gravityforms]
+
+				[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="4"]
+				{Specific stats you would like Analytics4Athletes to focus on::4}
+				[/gravityforms]
+
+			</span></p>
+
+
+			<p class="total-row">Total
+				<span class="price">
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="2"]
+					{Player Analysis Sheet - $75 (Price):15.2}
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="3"]
+					{Total:16}
+					[/gravityforms]
+
+					[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="4"]
+					{Total:11}
+					[/gravityforms]
+
+				</span></p>
+		</div>
+	</div>
+
+	<div class="billing-details">
+		<h3>Billing Details</h3>
+
+		[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="2"]
+		<p>{Your Name (First):11.3} {Your Name (Last):11.6}</p>
+		<p>{Your Email:12}</p>
+		<p>{Your Phone:13}</p>
+		<p>{Credit Card (Card Type):17.4} {Credit Card (Card Number):17.1}</p>
+		[/gravityforms]
+
+		[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="3"]
+		<p>{Your Name (First):11.3} {Your Name (Last):11.6}</p>
+		<p>{Your Email:12}</p>
+		<p>{Your Phone:13}</p>
+		<p>{Credit Card (Card Type):17.4} {Credit Card (Card Number):17.1}</p>
+		[/gravityforms]
+
+		[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="4"]
+		<p>{Your Name (First):6.3} {Your Name (Last):6.6}</p>
+		<p>{Your Email:7}</p>
+		<p>{Your Phone:8}</p>
+		<p>{Credit Card (Card Type):12.4} {Credit Card (Card Number):12.1}</p>
+		[/gravityforms]
+
+	</div>
+
+	<div class="order-details row">
+	   <h4>Order Details</h4>
+	   <ul>
+		<li>You will receive your receipt via email shortly. You can also 
+
+			[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="2"]
+			<a href="http://analytics4athletes.com/pdf/57e2d8c521fda/{entry_id}/" target="_blank">
+			[/gravityforms]
+			[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="3"]
+			<a href="http://analytics4athletes.com/pdf/57ea859a8d911/{entry_id}/" target="_blank">
+			[/gravityforms]
+			[gravityforms action="conditional" merge_tag="{form_id}" condition="is" value="4"]
+			<a href="http://analytics4athletes.com/pdf/57ebe14fd194c/{entry_id}/" target="_blank">
+			[/gravityforms]
+
+		download your receipt here</a>.</li>
+
+		<li>If you have any questions or feedback regarding your order please <a href="mailto:analytics4athletes@gmail.com">contact us here</a>.</li>
+		<li>We will be in touch shortly regarding your Player Analysis sheet. We look forward to working with you!</li>
+	   </ul>
+	</div>
+
+</div>
+
+<div class="back-link text-center">
+	<p>Go back to our <a href="http://seanhasensteindemo.com">homepage</a></p>
+</div>

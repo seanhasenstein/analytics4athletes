@@ -18,7 +18,7 @@ Template Name: Team Scouting Report Billing
               <img src="<?php bloginfo('template_directory'); ?>/images/team_scouting_report_small.jpg">
             </div>
           </div>
-          <?php gravity_form(10, false, false, false, '', true, 12); ?>
+          <?php gravity_form(4, false, false, false, '', true, 12); ?>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ Template Name: Player Analysis Page
             <li>Analytics4Athletes will do the rest.</li>
           </ul>
           <p><span class="red">*</span> Player Analysis sheets are 1 page and cost $75.</p> 
-          <a class="buy" href="http://seanhasensteindemo.com/player-analysis-checkout">Buy Now</a>
+          <a class="buy" href="https://analytics4athletes.com/player-analysis-checkout">Buy Now</a>
         </div>
       </div>
     </div>

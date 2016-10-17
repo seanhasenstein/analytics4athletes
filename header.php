@@ -7,6 +7,29 @@
 
     <title>Analytics4Athletes</title>
 
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://analytics4athletes.com/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://analytics4athletes.com/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://analytics4athletes.com/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://analytics4athletes.com/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://analytics4athletes.com/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://analytics4athletes.com/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://analytics4athletes.com/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://analytics4athletes.com/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="https://analytics4athletes.com/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://analytics4athletes.com/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://analytics4athletes.com/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://analytics4athletes.com/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://analytics4athletes.com/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Analytics 4 Athletes"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://analytics4athletes.com/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://analytics4athletes.com/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://analytics4athletes.com/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://analytics4athletes.com/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://analytics4athletes.com/mstile-310x310.png" />
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+
     <?php wp_head(); ?>
 
   </head>
@@ -23,7 +46,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="http://seanhasensteindemo.com">
+        <a class="navbar-brand" href="https://analytics4athletes.com">
           <img src="<?php bloginfo('template_directory'); ?>/images/logo_nav.png" alt="Analytics4Athletes">
         </a>
       </div>
@@ -31,17 +54,18 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="http://seanhasensteindemo.com">Home</a></li>
+          <li><a href="https://analytics4athletes.com">Home</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<i class="fa fa-angle-down" aria-hidden="true"></i></a>
             <ul class="dropdown-menu dropdown-menu-left">
-              <li><a href="http://seanhasensteindemo.com/player-analysis">Player Analysis</a></li>
-              <li><a href="http://seanhasensteindemo.com/player-development">Player Development</a></li>
-              <li><a href="http://seanhasensteindemo.com/team-scouting-report">Team Scouting Report</a></li>
+              <li><a href="https://analytics4athletes.com/player-analysis">Player Analysis</a></li>
+              <li><a href="https://analytics4athletes.com/player-development">Player Development</a></li>
+              <li><a href="https://analytics4athletes.com/team-scouting-report">Team Scouting Report</a></li>
+              <li><a href="https://analytics4athletes.com/product-examples">Product Examples</a></li>
             </ul>
           </li>
-          <li><a href="http://seanhasensteindemo.com/about">About Us</a></li>
-          <li><a href="http://seanhasensteindemo.com/contact">Contact Us</a></li>
+          <li><a href="https://analytics4athletes.com/about">About Us</a></li>
+          <li><a href="https://analytics4athletes.com/contact">Contact Us</a></li>
         </ul>
 
       </div><!-- /.navbar-collapse -->

@@ -18,7 +18,7 @@ Template Name: Player Analysis Billing
               <img src="<?php bloginfo('template_directory'); ?>/images/player_analysis_small.jpg">
             </div>
           </div>
-          <?php gravity_form(8, false, false, false, '', true, 12); ?>
+          <?php gravity_form(2, false, false, false, '', true, 12); ?>
         </div>
       </div>
     </div>

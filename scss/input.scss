@@ -13,10 +13,17 @@
 @import 'pages/home/products';
 @import 'pages/products';
 @import 'pages/checkout';
+@import 'pages/confirmation';
 @import 'pages/about';
+@import 'pages/product-examples';
 @import 'pages/contact';
+@import 'pages/404';
 @import 'layout/footer';
 
-body {
-	overflow-x: hidden;
+html, body {
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px !important;
+    /*overflow-x: hidden; */
 }
