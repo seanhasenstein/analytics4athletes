@@ -13,7 +13,7 @@ Template Name: Player Development Billing
           <div class="product-name">
             <h1>Product</h1>
             <div class="inner">
-              <h3>Player Development Sheet</h3>
+              <h3>Player Development Sheet(s)</h3>
               <h4>$150 / $200</h4>
               <img src="<?php bloginfo('template_directory'); ?>/images/player_development_small.jpg">
             </div>

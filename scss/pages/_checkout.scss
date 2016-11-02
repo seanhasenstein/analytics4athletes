@@ -118,13 +118,17 @@ pages/checkout.scss
 		font-size: 14px;
 		letter-spacing: 1px;
 
+		&:hover, &:active, &:focus {
+			text-decoration: none;
+		}
+
 		&:hover {
 			text-decoration: none;
     		background: #c6111d;
 		}
 	}
-	select#input_2_14_4, select#input_3_14_4, select#input_4_9_4 {
-	    display: block;
+	select#input_2_14_4, select#input_2_17_2_month, select#input_2_17_2_year, select#input_3_14_4, select#input_3_17_2_month, select#input_3_17_2_year, select#input_4_9_4, select#input_4_12_2_month, select#input_4_12_2_year {
+	    /*display: block;*/
 	    height: 26px;
 	    padding: 0 0 0 8px;
 	    overflow: hidden;
@@ -160,7 +164,7 @@ pages/checkout.scss
 	li#field_2_4, li#field_2_14, li#field_3_14, li#field_4_9 {
 	    margin-top: 30px;
 	}
-	li#field_11_5 {
+	li#field_2_5, li#field_11_5 {
 		margin-top: 40px;
 	}
 	li#field_2_15, li#field_3_15, li#field_3_16, li#field_4_10, li#field_4_11, li#field_2_17, li#field_3_17, li#field_4_12 {

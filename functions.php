@@ -46,18 +46,47 @@ function remove_menus(){
   
   //remove_menu_page( 'index.php' );                  //Dashboard
   remove_menu_page( 'jetpack' );                    //Jetpack* 
-  remove_menu_page( 'edit.php' );                   //Posts
+  //remove_menu_page( 'edit.php' );                   //Posts
   remove_menu_page( 'upload.php' );                 //Media
-  remove_menu_page( 'edit.php?post_type=page' );    //Pages
+  //remove_menu_page( 'edit.php?post_type=page' );    //Pages
   remove_menu_page( 'edit-comments.php' );          //Comments
-  remove_menu_page( 'themes.php' );                 //Appearance
+  //remove_menu_page( 'themes.php' );                 //Appearance
   remove_menu_page( 'plugins.php' );                //Plugins
   remove_menu_page( 'users.php' );                  //Users
-  remove_menu_page( 'tools.php' );                  //Tools
-  remove_menu_page( 'options-general.php' );        //Settings
+  //remove_menu_page( 'tools.php' );                  //Tools
+  //remove_menu_page( 'options-general.php' );        //Settings
 
 }
 add_action( 'admin_menu', 'remove_menus' );
+
+
+
+
+/**
+ * Filter the except length to 20 characters.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+    return 25;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+
+/* Add a link  to the end of our excerpt contained in a div for styling purposes and to break to a new line on the page.*/
+ 
+function et_excerpt_more($more) {
+    global $post;
+    return '<div class="view-full-post">Read More</div>';
+}
+add_filter('excerpt_more', 'et_excerpt_more');
+
+
+remove_filter('the_title', 'wpautop');
+remove_filter('the_time', 'wpautop');
+remove_filter('the_excerpt', 'wpautop');
+
 
 
 /**
@@ -298,4 +327,5 @@ function replace_transaction_id( $text, $form, $entry, $url_encode, $esc_html, $
 }
 
 
-remove_filter( 'the_content', 'wpautop' );
+//remove_filter( 'the_content', 'wpautop' );
+
